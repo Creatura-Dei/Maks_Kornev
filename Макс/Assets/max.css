@@ -240,13 +240,26 @@ ANIMATION
   padding-left: 60px;
   padding-right: 20px;
   padding-bottom: 10px;
-  line-height: 1.6;
+  line-height: 1.3;
+  color: #ffffff;
+  font-size: 90%;
+}
+
+.spisok2 {
+  margin-top: 40px;
+  padding-left: 20px;
+  line-height: 1.3;
   color: #ffffff;
   font-size: 95%;
 }
 
 .markers {
   padding-left: 4px;
+}
+
+.markers2 {
+  padding-left: 4px;
+  margin-top: 15px;
 }
 
 .zag2 {
@@ -292,9 +305,10 @@ ANIMATION
 
 .abzac5, .abzac6, .abzac7 {
   margin-top: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 38px;
   margin-left: 10px;
   margin-right: 10px;
+  color: #f0f0f0;;
 }
 
 
@@ -323,7 +337,7 @@ ANIMATION
   margin-right: -95px;
 }
 
-.img4 {
+.pic4 {
   height: 550px;
   width: 550px;
   float: right;
@@ -333,15 +347,15 @@ ANIMATION
   position: relative;
 }
 
-.puzzle {
+.pic5 {
   width: 80%;
   position: relative;
-  margin-top: 30px;
+  margin-top: 5px;
   margin-left: 50px;
   margin-bottom: 20px;
 }
 
-.iicon {
+.pic6 {
   width: 87%;
   margin-top: 50px;
   margin-left: 50px;
