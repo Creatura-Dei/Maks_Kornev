@@ -1,0 +1,48 @@
+.faq {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.faq-item {
+    margin-bottom: 5px;
+    border: 1px solid red;
+}
+
+.faq-title {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background .4s ease-out;
+    position: relative;
+}
+
+.faq-title::after {
+    content: "";
+    display: block;
+}
+
+.faq-title:hover {
+    background-color: red;
+}
+
+.faq-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.faq-input:checked ~ .faq-title {
+    background-color: red;
+}
+
+.faq-input:checked ~ .faq-text {
+    display: block;
+}
+
+.faq-text {
+    display: none; 
+    font-size: 14px;
+    padding: 10px 15px;
+}

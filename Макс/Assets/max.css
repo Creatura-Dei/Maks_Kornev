@@ -232,7 +232,7 @@ ANIMATION
   font-size: 2em;
   margin-top: 0;
   letter-spacing: 2px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .spisok {
@@ -379,9 +379,10 @@ ANIMATION
 
 
 
+
 /* =============================================
                 МОДАЛЬНОЕ ОКНО                  
-================================================ */
+================================================ 
 
 .popup {
   position: fixed;
@@ -444,4 +445,32 @@ ANIMATION
   height: 1px;
   top: 0;
 
+} */
+
+h2 button:focus svg {
+  outline: 2px solid;
 }
+
+button svg {
+  height: 1em;
+  margin-left: 0.5em;
+}
+
+[aria-expanded="true"] .vert {
+  display: none;
+}
+
+[aria-expanded] rect {
+  fill: currentColor;
+}
+
+/* page styles */
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
