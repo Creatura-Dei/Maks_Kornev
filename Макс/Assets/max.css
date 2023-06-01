@@ -204,13 +204,16 @@ ANIMATION
 }
 
 .guildhead2 {
+  background-color: #303540;
+  min-height: 100px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: #0cbf63;
   background: linear-gradient(135deg, rgba(130,191,69,1) 0%, rgba(48,53,64,1) 66%);
 	background-size: 400%;
 	animation: animate_gradient 11s ease infinite;
   border: none;
-  transition: 0.2s;
-  min-height: 100px;
-  margin-bottom: 20px;
   border-radius: 18px;
 }
 
@@ -218,7 +221,7 @@ ANIMATION
                 РЕДАКТИРОВАНИЕ ТЕКСТА
 =============================================*/
 
-.guild, .zag2, .zag4, .zag5 {
+.guild, .zag2, .zag4, .zag5, .head2 {
   font-family: 'Commissioner', sans-serif;
 }
 
@@ -301,8 +304,9 @@ ANIMATION
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 6px;
-  align-items: center;
-  justify-content: center;
+  font-size: 50px;
+  margin: 0;
+  
 }
 
 
