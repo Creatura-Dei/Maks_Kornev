@@ -63,8 +63,8 @@ ANIMATION
 
 .btn {
   width: 250px;
-  height: 50px;
-  font-size: 1.5em;
+  height: 60px;
+  font-size: 1.7em;
   font-weight: 600;
   text-shadow: rgb(19, 17, 17);
   text-decoration: none;
@@ -73,21 +73,23 @@ ANIMATION
   border: none;
   border-radius: 14px; 
   background: hsl(0, 0%, 100%);
-  color: rgb(46, 46, 46);
+  color: rgb(64, 64, 64);
   float: right;
   cursor: pointer;
   transition: 0.2s;
   box-shadow: 0 4px 6px rgba(8, 11, 12, 0.3), 0 1px 3px rgb(0 0 0 / 8%);
-  touch-action: manipulation;  
+  touch-action: manipulation;
   
   margin: 30px 60px 40px 60px;
   padding-top: 20px;
+  letter-spacing: 1.7px;
 }
 
 .btn a {
   text-decoration: none;
   letter-spacing: 1.7px;
 }
+
 
 
 
@@ -179,6 +181,7 @@ ANIMATION
   background-color: #303540;
   transition: 0.2s;
   margin-top: 10px;
+  min-height: 500px;
 }
 
 .box5 {
@@ -186,29 +189,30 @@ ANIMATION
   padding-right: 30px;
   background-color: #303540;
   transition: 0.2s;
+  grid-column: 1/3;
+  min-height: 500px;
 }
+
 
 .box6 {
   padding-left: 30px;
   padding-right: 30px;
   background-color: #303540;
   transition: 0.2s;
-}
-
-.box7 {
   grid-column: 1/3;
-  background-color: #303540;
-  margin-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  min-height: 500px;
 }
 
-.box5, .box6 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.guildhead2 {
+  background: linear-gradient(135deg, rgba(130,191,69,1) 0%, rgba(48,53,64,1) 66%);
+	background-size: 400%;
+	animation: animate_gradient 11s ease infinite;
+  border: none;
+  transition: 0.2s;
+  min-height: 100px;
+  margin-bottom: 20px;
+  border-radius: 18px;
 }
-
 
 /* ===========================================
                 РЕДАКТИРОВАНИЕ ТЕКСТА
@@ -282,35 +286,24 @@ ANIMATION
   color: #82bf45;
 }
 
-.zag5, .zag6, .zag7 {
-  font-size: 1.4em;
-  letter-spacing: 2.2px;
-  font-weight: bold;
-  color: #82bf45;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
-
-.abzac4 {
+.abzac {
   margin-top: 30px;
   margin-bottom: 32px;
   margin-left: 10px;
-  padding-right: 660px;
   color: #f0f0f0;
   font-size: 96%;
-  letter-spacing: 0.3px;
+  letter-spacing: 1.5px;
   line-height: 1.3;
 }
 
-.abzac5, .abzac6, .abzac7 {
-  margin-top: 30px;
-  margin-bottom: 38px;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #f0f0f0;;
+.head2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 6px;
+  align-items: center;
+  justify-content: center;
 }
-
 
 
 
@@ -338,29 +331,22 @@ ANIMATION
 }
 
 .pic4 {
-  height: 550px;
-  width: 550px;
-  float: right;
-  margin-top: -90px;
-  margin-right: 20px;
-  margin-bottom: -50;
-  position: relative;
+float: right;
+width: 20%;
+margin-top: 40px;
+margin-left: 25px;
+
 }
 
 .pic5 {
-  width: 80%;
-  position: relative;
-  margin-top: 5px;
-  margin-left: 50px;
-  margin-bottom: 20px;
+float: right;
+width: 20%;
+margin-top: 40px;
+margin-right: 20px;
+margin-left: 25px;
 }
 
-.pic6 {
-  width: 87%;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-}
+
 
 
 
@@ -447,30 +433,4 @@ ANIMATION
 
 } */
 
-h2 button:focus svg {
-  outline: 2px solid;
-}
-
-button svg {
-  height: 1em;
-  margin-left: 0.5em;
-}
-
-[aria-expanded="true"] .vert {
-  display: none;
-}
-
-[aria-expanded] rect {
-  fill: currentColor;
-}
-
-/* page styles */
-
-html {
-  font-family: Arial, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
 
