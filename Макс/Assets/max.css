@@ -485,10 +485,10 @@ margin-bottom: 30px;
 
 /* Nav */
 .nav {
-  margin-top: 50px;
+  margin-top: 60px;
   padding: 0;
-  list-style: none;
-  padding-right: 380px;
+  list-style-type: none;
+  padding-right: 500px;
 }
 
 .nav-item {
@@ -522,7 +522,7 @@ margin-bottom: 30px;
   min-width: 100%;
   margin-left: 40px;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
   
   font-size: 0.8em;
   
@@ -552,4 +552,5 @@ margin-bottom: 30px;
 
 .before::before {
   content: " ● ";
+  color:#c0f38e;
 }
