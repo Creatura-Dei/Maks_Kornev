@@ -482,3 +482,8 @@ margin-bottom: 30px;
   background-color: #82bf45;
   list-style-type: none;
 }
+
+.after::after {
+  content: " ● ";
+  float: right;
+}
