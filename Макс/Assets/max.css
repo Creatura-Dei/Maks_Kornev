@@ -412,91 +412,23 @@ margin-bottom: 30px;
   color: #ffffff;
 }
 
-
-
-
-/* =============================================
-                МОДАЛЬНОЕ ОКНО                  
-================================================ 
-
-.popup {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-.popup:target {
-  opacity: 1;
-  visibility: visible;
-}
-
-.popup__area {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.popup__body {
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 30px;
-}
-
-.popup__content {
-  background-color: #fff;
-  color: #000;
-  max-width: 800px;
-  padding: 30px;
-  position: relative;
-}
-
-.popup__close {
- position: absolute;
- right: 15px;
- top: 10px;
- font-size: 20px;
- color: #000;
- text-decoration: none;
-}
-
-.popup__title {
-  font-size: 40px;
-  margin: 0 0 1em 0;
-}
-
-.popup__text {}
-
-.reset {
-  position: fixed;
-  background-color: #000;
-  height: 1px;
-  top: 0;
-
-} */
-
-
 /* Nav */
 .nav {
-  margin-top: 60px;
+  margin-top: 50px;
   padding: 0;
+  list-style: none;
+  padding-right: 380px;
   list-style-type: none;
-  padding-right: 500px;
 }
 
 .nav-item {
   position: relative;
+  list-style-type: none;
 }
 
 .nav-item:hover > .subnav {
   display: block;
+  list-style-type: none;
 }
 
 .nav-link {
@@ -504,7 +436,7 @@ margin-bottom: 30px;
   padding: 8px 16px;
   border-radius: 10px;
   margin-top: 10px;
-  
+  list-style-type: none;
   background-color: #474a56;
   
   color: #fff;
@@ -522,10 +454,10 @@ margin-bottom: 30px;
   min-width: 100%;
   margin-left: 40px;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
   
   font-size: 0.8em;
-  
+  list-style-type: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -548,9 +480,5 @@ margin-bottom: 30px;
 
 .subnav-link:hover {
   background-color: #82bf45;
-}
-
-.before::before {
-  content: " ● ";
-  color:#c0f38e;
+  list-style-type: none;
 }
