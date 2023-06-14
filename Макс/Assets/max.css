@@ -209,7 +209,7 @@ ANIMATION
   background-color: #303540;
   transition: 0.2s;
   grid-column: 1/3;
-  min-height: 500px;
+  min-height: 700px;
 }
 
 .guildhead2 {
@@ -227,6 +227,7 @@ ANIMATION
   justify-content: space-between;
   align-items: center;
 }
+
 
 /* ===========================================
                 РЕДАКТИРОВАНИЕ ТЕКСТА
@@ -320,6 +321,7 @@ ANIMATION
   line-height: 1.3;
 }
 
+
 .head2 {
   color: #fff;
   text-transform: uppercase;
@@ -330,6 +332,7 @@ ANIMATION
 
 .line {
   border-bottom: 2px dotted #82bf45;
+  margin-bottom: 55px;
 }
 
 .text6 {
@@ -392,8 +395,11 @@ margin-bottom: 30px;
 .pic6 {
   float: right;
   width: 25%;
-  margin-top: -55px;
-  margin-right: 50px
+  margin-top: -80px;
+  margin-right: 50px;
+  position: relative;
+  margin-bottom: 90px;
+  max-width: 300px;
 }
 
 
