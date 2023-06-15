@@ -1,76 +1,36 @@
-.drop_menu li a {
-    display: block;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: SBsans-Text;
-    font-size: 16px;
-    font-weight: 400;
+body{
+	background:#222;
+	text-align:center;
+	font-size:180%;
+	margin:2em;
+	font-family: Calibri, arial, sans-serif;
 }
-
-.drop_menu ul {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    list-style-type: none;
-    z-index: 9999;
-    display: none;
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
 }
+.to-top:before{
+	content:'⟳';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
 
-.drop_menu li:hover {
-    position: relative;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
 }
-
-.drop_menu li span.down:hover {
-    font-family: SBsans-Text;
-    border: 0;
-    border-image: linear-gradient(270deg, rgba(126, 232, 250, 0.3) 0%, rgba(128, 255, 114, 0.3) 100%);
-    border-bottom: 6px solid transparent;
-    color: rgba(128, 255, 114, 0.8);
-    border-image-slice: 1;
+.to-top:hover{
+	color:pink;
 }
-
-
-.slideInUp {
-    min-width: 300px;
-    padding: 4px 0;
-    box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+.to-top:hover:before{
+	transform: rotate(360deg);
 }
-
-.drop_menu li:hover ul {
-    background: #fff;
-    display: block;
-}
-
-.drop_menu li ul li {
-    position: relative;
-    left: -10px;
-    padding: 7px 0px;
-}
-
-.drop_menu li:hover ul li {
-    width: 100%;
-    margin: 0;
-    padding: 0px 0px;
-}
-
-.drop_menu li:hover ul li a {
-    display: block;
-    transition: none;
-    font-size: 16px;
-    padding: 2px 12px;
-    margin-left: 10px;
-    margin-right: -10px;
-    line-height: 26px;
-}
-
-.slideInUp {
-    -webkit-animation-name: slideInUp;
-    animation-name: slideInUp;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-
