@@ -1,36 +1,68 @@
-body{
-	background:#222;
-	text-align:center;
-	font-size:180%;
-	margin:2em;
+.body__ex {
+	background-color: #303540;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 20px;
+	min-height: 1400px;
 	font-family: Calibri, arial, sans-serif;
+	position: absolute;
 }
-.to-top{
-	color:white;
-	padding-top:1.8em;
-	display:inline-block;/* or block */
-	position:relative;
-	border-color:white;
-	text-decoration:none;
-	transition:all .3s ease-out;
-}
-.to-top:before{
-	content:'⟳';
-	font-size:.9em;
-	position:absolute;
-	top:0;
-	left:50%;
-	margin-left:-.7em;
 
-	width:1.4em;
-	height:1.4em;
-	line-height:1.3em;
-	border-color:inherit;
-	transition:transform .5s ease-in;
+
+
+
+.main__title {
+	font-family: 'Commissioner', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 4.4em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 0;
 }
-.to-top:hover{
-	color:pink;
+
+.zag__1 {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 40px;
+	font-weight: bold;
+	color: #82bf45;
+	letter-spacing: 2.2px;
+	margin-left: 40px;
 }
-.to-top:hover:before{
-	transform: rotate(360deg);
+
+.zag__2 {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 40px;
+	font-weight: bold;
+	color: #82bf45;
+	letter-spacing: 2.2px;
+	margin-left: 40px;
+	text-transform: uppercase;
+  
 }
+
+.text__ex {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 1.5px;
+	line-height: 1.3;
+
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	color: #f0f0f0;
+  }
+
+  .under__line {
+	border-bottom: 2px dotted #82bf45;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+  }
