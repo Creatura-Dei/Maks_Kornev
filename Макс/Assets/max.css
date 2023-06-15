@@ -209,7 +209,11 @@ ANIMATION
   background-color: #303540;
   transition: 0.2s;
   grid-column: 1/3;
-  min-height: 700px;
+  min-height: 800px;
+}
+
+.box6_1 {
+  min-height: 350px;
 }
 
 .guildhead2 {
@@ -394,12 +398,12 @@ margin-bottom: 30px;
 
 .pic6 {
   float: right;
+  position: relative;
   width: 25%;
   margin-top: -80px;
   margin-right: 50px;
-  position: relative;
   margin-bottom: 90px;
-  max-width: 300px;
+  max-width: 370px;
 }
 
 
