@@ -244,6 +244,10 @@ ANIMATION
   position: relative;
 }
 
+.box6_1 {
+  margin-top: 60px;
+}
+
 .guildhead2 {
   background-color: #303540;
   min-height: 150px;
@@ -367,15 +371,16 @@ ANIMATION
   margin-bottom: 55px;
 }
 
-.text6 {
-  padding-right: 500px;
-}
-
 .zag {
   font-size: 1.1em;
   letter-spacing: 2.2px;
   font-weight: bold;
   color: #82bf45;
+}
+
+.text__green {
+  color: #82bf45;
+  font-weight: bold;
 }
 
 /* ================================================
@@ -431,6 +436,7 @@ margin-bottom: 30px;
   margin-top: -80px;
   margin-right: 50px;
   margin-bottom: 90px;
+  margin-left: 30px;
   max-width: 370px;
 }
 
@@ -478,8 +484,8 @@ margin-bottom: 30px;
   background-color: #474a56;
   max-width: 750px;
 
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 .nav-link:hover {
@@ -515,21 +521,126 @@ margin-bottom: 30px;
   
   box-shadow: 0 7px 14px #1f222a;
 
-  color: #fff;
+  color: #fff !important;
   font-weight: bold;
   letter-spacing: 2px;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .subnav-link:hover {
   background-color: #82bf45;
-  list-style-type: none;
-  color: #000000;
+  list-style-type: none !important;
+  color: #000000 !important;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .after::after {
   content: " ▾ ";
   float: right;
 }
+
+/* 
+_________________________________________________________________________________ПРИМЕР - ШАБЛОН
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;600&family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+  <link href="/Макс/Assets/example.css" rel="stylesheet">
+</head>
+<div class="body__ex">
+    <div class="main__title">
+      гильдия mpp
+    </div>
+    <div class="zag__1">
+      Заголовок из строчных букв
+    </div>
+    <div class="zag__2">
+      Заголовок из заглавных букв
+    </div>
+    <div class="text__ex">
+      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+      <br>
+      <br>
+      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях
+    </div>
+    <div class="under__line">
+    </div>
+</div>
+</html>
+____________________________________________________________________________________________________________________________
+
+.body__ex {
+	background-color: #303540;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 20px;
+	min-height: 1400px;
+	font-family: Calibri, arial, sans-serif;
+	position: absolute;
+}
+
+.main__title {
+	font-family: 'Commissioner', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 85px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.zag__1 {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 40px;
+	font-weight: bold;
+	color: #82bf45;
+	letter-spacing: 2.2px;
+	margin-left: 40px;
+}
+
+.zag__2 {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 40px;
+	font-weight: bold;
+	color: #82bf45;
+	letter-spacing: 2.2px;
+	margin-left: 40px;
+	text-transform: uppercase;
+  
+}
+
+.text__ex {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 1.5px;
+	line-height: 1.3;
+
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	color: #f0f0f0;
+  }
+
+  .under__line {
+	border-bottom: 2px dotted #82bf45;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+  }
+
+*/
