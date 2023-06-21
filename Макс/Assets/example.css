@@ -1,11 +1,12 @@
 .body__ex {
 	background-color: #303540;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 20px;
 	min-height: 1400px;
 	font-family: Calibri, arial, sans-serif;
-	position: absolute;
+	position: relative;
+	padding-top: 40px;
 }
 
 .main__title {
@@ -15,7 +16,7 @@
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 6px;
-    margin-top: 50px;
+   
     margin-left: 40px;
     margin-bottom: 0;
 }

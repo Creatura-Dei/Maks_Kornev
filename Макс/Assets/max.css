@@ -543,104 +543,78 @@ margin-bottom: 30px;
 /* 
 _________________________________________________________________________________ПРИМЕР - ШАБЛОН
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;600&family=Wix+Madefor+Display&display=swap" rel="stylesheet">
-  <link href="/Макс/Assets/example.css" rel="stylesheet">
-</head>
-<div class="body__ex">
-    <div class="main__title">
-      гильдия mpp
-    </div>
-    <div class="zag__1">
-      Заголовок из строчных букв
-    </div>
-    <div class="zag__2">
-      Заголовок из заглавных букв
-    </div>
-    <div class="text__ex">
-      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
-      <br>
-      <br>
-      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях
-    </div>
-    <div class="under__line">
-    </div>
-</div>
-</html>
-____________________________________________________________________________________________________________________________
+Оболочка:
+  .body__ex {
+    background-color: #303540;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    min-height: 1400px;
+    font-family: Calibri, arial, sans-serif;
+    position: relative;
+    padding-top: 40px;
+  }
 
-.body__ex {
-	background-color: #303540;
-	margin-left: 40px;
-	margin-right: 40px;
-	border-radius: 20px;
-	min-height: 1400px;
-	font-family: Calibri, arial, sans-serif;
-	position: absolute;
-}
 
-.main__title {
-	font-family: 'Commissioner', sans-serif;
-	color: rgb(255, 255, 255);
-	font-size: 85px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    letter-spacing: 6px;
-    margin-top: 50px;
+Главный заголовок:
+  .main__title {
+    font-family: 'Commissioner', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      letter-spacing: 6px;
+    
+      margin-left: 40px;
+      margin-bottom: 0;
+  }
+
+
+Заголовок из строчных букв:
+  .zag__1 {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 40px;
+    font-weight: bold;
+    color: #82bf45;
+    letter-spacing: 2.2px;
     margin-left: 40px;
-    margin-bottom: 0;
-}
+  }
 
-.zag__1 {
-	font-family: 'Wix Madefor Display', sans-serif;
-	font-size: 40px;
-	text-align: left;
-	padding-top: 40px;
-	font-weight: bold;
-	color: #82bf45;
-	letter-spacing: 2.2px;
-	margin-left: 40px;
-}
 
-.zag__2 {
-	font-family: 'Wix Madefor Display', sans-serif;
-	font-size: 40px;
-	text-align: left;
-	padding-top: 40px;
-	font-weight: bold;
-	color: #82bf45;
-	letter-spacing: 2.2px;
-	margin-left: 40px;
-	text-transform: uppercase;
+Заголовок из заглавных букв:
+  .zag__2 {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 40px;
+    font-weight: bold;
+    color: #82bf45;
+    letter-spacing: 2.2px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    
+  }
+
   
-}
+Контейнер с текстом:
+  .text__ex {
+    font-family: 'Wix Madefor Display', sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    color: #f0f0f0;
+    }
 
-.text__ex {
-	font-family: 'Wix Madefor Display', sans-serif;
-	font-size: 1.6em;
-	letter-spacing: 1.5px;
-	line-height: 1.3;
 
-	margin-top: 30px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	margin-left: 40px;
-	color: #f0f0f0;
-  }
-
+Зелёная линия снизу:
   .under__line {
-	border-bottom: 2px dotted #82bf45;
-	margin-bottom: 40px;
-	margin-left: 40px;
-	margin-right: 40px;
-  }
-
+    border-bottom: 2px dotted #82bf45;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
 */
