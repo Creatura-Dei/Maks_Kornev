@@ -1,10 +1,17 @@
+/* Кнопка вернуться: */
+/* 
+        <div class="b_back">
+          <a href="ссылка" alt="button" class="linkremove">
+            Вернуться
+          </a>
+        </div> 
+*/
+
 .divbody {
   font-family: 'Wix Madefor Display', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 /* ==================================================
                         HOVERы
@@ -539,16 +546,7 @@ margin-bottom: 30px;
   float: right;
 }
 
-/* ___________________________________________________________________________________________ */
-
 /* Кнопка вернуться: */
-/* 
-        <div class="b_back">
-          <a href="ссылка" alt="button" class="linkremove">
-            Вернуться
-          </a>
-        </div> 
-*/
 .b_back:hover {
   transition: all 0.2s;
   box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
