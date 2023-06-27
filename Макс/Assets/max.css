@@ -8,7 +8,7 @@
 */
 
 .divbody {
-  font-family: 'Wix Madefor Display', sans-serif;
+  font-family:'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -276,8 +276,23 @@ ANIMATION
                 РЕДАКТИРОВАНИЕ ТЕКСТА
 =============================================*/
 
-.guild, .zag, .box__zag2, .box__zag, .head2 {
-  font-family: 'Commissioner', sans-serif;
+@font-face {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif;
+  src: url(/Макс/Assets/Font/Segoe\ UI\ Semibold.ttf);
+  src: url(/Макс/Assets/Font/Segoe\ UI\ Bold.ttf);
+  src: url(/Макс/Assets/Font/Segoe\ UI\ Light.ttf);
+}
+
+.guild, 
+.zag, 
+.box__zag, 
+.box__zag2, 
+.head2, 
+.reporting,
+.box__zag6 {
+  font-family: 'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .guild {
@@ -386,6 +401,7 @@ ANIMATION
 }
 
 .text__green {
+  font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
   color: #82bf45;
   font-weight: bold;
 }
@@ -600,7 +616,6 @@ margin-bottom: 30px;
     margin-right: auto;
     border-radius: 20px;
     min-height: 1400px;
-    font-family: Calibri, arial, sans-serif;
     position: relative;
     padding-top: 40px;
   }
