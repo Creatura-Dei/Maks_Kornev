@@ -229,12 +229,12 @@ ANIMATION
 
 .box5 {
   padding-right: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-left: 50px;
   background-color: #303540;
   transition: 0.2s;
   grid-column: 1/3;
-  min-height: 900;
+  min-height: auto;
 }
 
 .box6 {
@@ -499,15 +499,15 @@ margin-bottom: 30px;
 
 .nav-link {
   display: block;
-  padding: 11px 11px;
+  padding: 0.6em 0.6em;
   border-radius: 10px;
   margin-top: 12px;
   list-style-type: none;
   background-color: #474a56;
-  max-width: 750px;
+  max-width: 600px;
   color: #fff !important;
   text-decoration: none !important;
-  font-size: 0.65em;
+  font-size: 0.7em;
 }
 
 .nav-link:hover {
@@ -520,20 +520,20 @@ margin-bottom: 30px;
 .subnav {
   display: none;
   min-width: 100%;
-  margin-left: 40px;
+  margin-left: 0px;
   padding: 0;
   list-style: none;
-  font-size: 0.75em;
+  font-size: 0.8em;
   list-style-type: none;
   position: absolute;
   top: 100%;
-  left: 100;
+  left: 80;
   z-index: 1;
 }
 
 .subnav-link {
   display: block;
-  padding: 0.6em 0.8em;
+  padding: 0.4em 0.6em;
   max-width: 700px;
   border: solid 1px #25272d;
   background-color: #32353d;
@@ -541,14 +541,31 @@ margin-bottom: 30px;
   margin: 4px;
   box-shadow: 0 7px 14px #1f222a;
 
-  font-size: 0.8em;
+  font-size: 0.9em;
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+} 
+
+.subnav-link-year {
+  display: block;
+  padding: 0.4em 0.6em;
+  max-width: 200px;
+  border: solid 1px #25272d;
+  background-color: #32353d;
+  border-radius: 10px;
+  margin: 4px;
+  box-shadow: 0 7px 14px #1f222a;
+
+  font-size: 0.9em;
   color: #fff !important;
   font-weight: bold;
   letter-spacing: 2px;
   text-decoration: none !important;
 }
 
-.subnav-link:hover {
+.subnav-link:hover, .subnav-link-year:hover {
   background-color: #82bf45;
   list-style-type: none !important;
   color: #000000 !important;
