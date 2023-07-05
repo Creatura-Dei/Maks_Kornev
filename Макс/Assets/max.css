@@ -478,7 +478,12 @@ margin-bottom: 30px;
   color: #ffffff !important;
 }
 
-/* Nav */
+
+
+
+/* ============================================
+                  НАВИГАЦИЯ
+=============================================== */
 .nav {
   margin-top: 50px;
   padding: 0;
@@ -527,7 +532,7 @@ margin-bottom: 30px;
   list-style-type: none;
   position: absolute;
   top: 100%;
-
+  left: 40;
   z-index: 1;
 }
 
@@ -546,25 +551,10 @@ margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 2px;
   text-decoration: none !important;
-  margin-left: 200px;
 } 
 
-.subnav-link-year {
-  display: block;
-  padding: 0.4em 0.6em;
+.year {
   max-width: 200px;
-  border: solid 1px #25272d;
-  background-color: #32353d;
-  border-radius: 10px;
-  margin: 4px;
-  box-shadow: 0 7px 14px #1f222a;
-
-  font-size: 0.9em;
-  color: #fff !important;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-decoration: none !important;
-  margin-left: 100px;
 }
 
 .subnav-link:hover, .subnav-link-year:hover {
