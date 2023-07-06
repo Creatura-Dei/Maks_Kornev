@@ -531,24 +531,12 @@ margin-bottom: 30px;
   font-size: 0.8em;
   list-style-type: none;
   position: absolute;
-  top: 100%;
-  left: 40;
+  top: 40;
+  left: 90;
   z-index: 1;
 }
 
-.subnav-1 {
-  display: none;
-  min-width: 100%;
-  margin-left: 0px;
-  padding: 0;
-  list-style: none;
-  font-size: 0.8em;
-  list-style-type: none;
-  position: absolute;
-  top: 100%;
-  left: 100;
-  z-index: 3;
-}
+
 
 .subnav-link {
   display: block;
@@ -566,11 +554,6 @@ margin-bottom: 30px;
   letter-spacing: 2px;
   text-decoration: none !important;
 } 
-
-.year {
-  max-width: 200px;
-  z-index: 2;
-}
 
 .scenar {
   max-width: 300px;
