@@ -531,8 +531,8 @@ margin-bottom: 30px;
   font-size: 0.8em;
   list-style-type: none;
   position: absolute;
-  top: 40;
-  left: 90;
+  top: 100%;
+  left: 10%;
   z-index: 1;
 }
 
