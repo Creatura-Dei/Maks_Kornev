@@ -495,7 +495,6 @@ margin-bottom: 30px;
 .nav-item {
   position: relative;
   list-style-type: none;
-  padding-left: 0;
 }
 
 .nav-item:hover > .subnav {
@@ -505,7 +504,7 @@ margin-bottom: 30px;
 
 .nav-link {
   display: block;
-  padding: 15px 20px;
+  padding: 20px 20px;
   border-radius: 10px;
   margin-top: 12px;
   list-style-type: none;
@@ -532,12 +531,10 @@ margin-bottom: 30px;
   font-size: 0.8em;
   list-style-type: none;
   position: absolute;
-  top: 35;
-  left: 190;
+  top: 80%;
+  left: 110;
   z-index: 1;
 }
-
-
 
 .subnav-link {
   display: block;
@@ -555,13 +552,6 @@ margin-bottom: 30px;
   letter-spacing: 2px;
   text-decoration: none !important;
 } 
-
-.scenar {
-  max-width: 300px;
-  font-size: 0.7em;
-  position: relative;
-  margin-left: 45px;
-}
 
 .subnav-link:hover {
   background-color: #82bf45;
