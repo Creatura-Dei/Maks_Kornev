@@ -532,7 +532,7 @@ margin-bottom: 30px;
   list-style-type: none;
   position: absolute;
   top: 100%;
-  left: 10%;
+  left: 140;
   z-index: 1;
 }
 
@@ -557,9 +557,12 @@ margin-bottom: 30px;
 
 .scenar {
   max-width: 300px;
+  font-size: 0.7em;
+  position: relative;
+  margin-left: 45px;
 }
 
-.subnav-link:hover, .subnav-link-year:hover {
+.subnav-link:hover {
   background-color: #82bf45;
   list-style-type: none !important;
   color: #000000 !important;
